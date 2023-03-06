@@ -1,1 +1,3 @@
-# jfrog-artifactory
+# jfrog-artifactory 
+
+- Windows Installation
