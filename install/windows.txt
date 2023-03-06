@@ -1,0 +1,26 @@
+1) Create a JFrog Home directory and move the downloaded installer archive into that directory, for example:
+mkdir jfrog
+move jfrog-artifactory-<pro|oss|cpp-ce>-<version>-windows.zip jfrog
+cd jfrog
+
+2) Set the JFrog Home environment variable:
+set JFROG_HOME=<full path of the jfrog directory> 
+
+3) Extract the contents of the compressed archive and go to the extracted folder. Define the path to this folder as an environment variable called JFROG_HOME:
+# Extract jfrog-artifactory-<pro|oss|cpp-ce>-<version>-windows.zip into jfrog folder
+move artifactory-<pro|oss|cpp-ce>-<version> artifactory
+
+4) Install Artifactory manually or as a service:
+- Manual Installation
+Browse to %JFROG_HOME%\artifactory\app\bin and execute the file artifactory.bat. 
+Depending on the security settings under Windows, you might need to run artifactory.bat using 'Run as administrator'
+- Service Installation
+Browse to %JFROG_HOME%\artifactory\app\bin, and execute the file InstallService.bat.
+Windows 8 implements strict User Account Control (UAC). You must either disable UAC or right-click on cmd.exe and select "Run as administrator" in order to run this script. When starting Artifactory, you may get some firewall exception messages. Please select private networks and allow access to continue working.
+
+5) Customize the product configuration (optional) including database, Java Opts, and filestore.
+
+6) Manage Artifactory using the following commands, in a Command Prompt window:
+sc start|stop|query artifactory
+
+7) Check Artifactory Log in the  %JFROG_HOME%\artifactory\var\log\artifactory-service.log file.
