@@ -19,3 +19,4 @@ Default password: password
 ![alt text](images/artifactory-setup-7.jpg)
 ![alt text](images/artifactory-setup-8.jpg)
 ![alt text](images/artifactory-setup-9.jpg)
+![alt text](images/errors/http_status_404_not_found.jpg)
