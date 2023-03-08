@@ -10,3 +10,4 @@ Default username: admin
 
 Default password: password
 
+![alt text](images/artifactory-setup-1.jpg)
