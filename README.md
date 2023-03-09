@@ -10,6 +10,9 @@ Default username: admin
 
 Default password: password
 
+Check service binding:
+ss -tunelp | grep 8081
+
 ![alt text](images/artifactory-setup-1.jpg)
 ![alt text](images/artifactory-setup-2.jpg)
 ![alt text](images/artifactory-setup-3.jpg)
