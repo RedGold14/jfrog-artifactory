@@ -14,10 +14,15 @@ Check service binding:
 ss -tunelp | grep 8081
 
 /backup
+
 /bootstrap
+
 /data
+
 /etc
+
 /log
+
 /work
 
 ![alt text](images/artifactory-setup-1.jpg)
