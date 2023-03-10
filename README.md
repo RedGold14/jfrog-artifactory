@@ -1,6 +1,7 @@
 # jfrog-artifactory 
 
 - Windows Installation
+- Docker Installation
 - Customize configuration 
 
 Default access: 
