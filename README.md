@@ -3,10 +3,14 @@
 - Windows Installation
 - Docker Installation
 - Customize configuration 
+- JFrog CLI
 
 Default access: 
 localhost:8081/artifactory/
+
 localhost:8082
+
+---------------------------------------
 
 Default username: admin
 
