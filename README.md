@@ -5,7 +5,8 @@
 - Customize configuration 
 
 Default access: 
-http://localhost:8081/artifactory/
+localhost:8081/artifactory/
+localhost:8082
 
 Default username: admin
 
