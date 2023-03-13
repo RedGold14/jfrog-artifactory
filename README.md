@@ -27,14 +27,20 @@ Check service binding:
 /log<br />
 /work<br />
 
-**Welcome screen**<br />
+**Welcome screen:**<br />
 ![alt text](images/artifactory-setup-1.jpg)
+**Reset admin password:**<br />
 ![alt text](images/artifactory-setup-2.jpg)
+**Welcome screen:**<br />
 ![alt text](images/artifactory-setup-3.jpg)
 ![alt text](images/artifactory-setup-4.jpg)
 ![alt text](images/artifactory-setup-5.jpg)
+**Set base URL:**<br />
 ![alt text](images/artifactory-setup-6.jpg)
+**Configure default proxy:**<br />
 ![alt text](images/artifactory-setup-7.jpg)
+**Set bas URL:**<br />
 ![alt text](images/artifactory-setup-8.jpg)
+**Create repositories:**<br />
 ![alt text](images/artifactory-setup-9.jpg)
 ![alt text](images/errors/http_status_404_not_found.jpg)
