@@ -19,7 +19,7 @@ Check service binding:
 >ss -tunelp | grep 8081<br />
 >ss -tunelp | grep 8082
 
-### Structure:
+### File structure:
 /backup<br />
 /bootstrap<br />
 /data<br />
@@ -27,6 +27,7 @@ Check service binding:
 /log<br />
 /work<br />
 
+Welcome screen<br />
 ![alt text](images/artifactory-setup-1.jpg)
 ![alt text](images/artifactory-setup-2.jpg)
 ![alt text](images/artifactory-setup-3.jpg)
