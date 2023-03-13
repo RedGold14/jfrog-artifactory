@@ -15,9 +15,13 @@ External Ports: **8081**, **8082**.
 Default username: *admin*<br />
 Default password: *password*
 
+---
+
 Check service binding:
 >ss -tunelp | grep 8081<br />
 >ss -tunelp | grep 8082
+
+---
 
 ### File structure:
 /backup<br />
@@ -26,6 +30,8 @@ Check service binding:
 /etc<br />
 /log<br />
 /work<br />
+
+---
 
 **Welcome screen:**<br />
 ![alt text](images/artifactory-setup-1.jpg)
@@ -41,7 +47,7 @@ Check service binding:
 ![alt text](images/artifactory-setup-7.jpg)
 **Finish:**<br />
 ![alt text](images/artifactory-setup-8.jpg)
-**JFrog Platform Welcome screen:**<br />
+**JFrog Platform welcome screen:**<br />
 ![alt text](images/artifactory-setup-9.jpg)
 **HTTP Status 404 - Not Found:**<br />
 ![alt text](images/errors/http_status_404_not_found.jpg)
