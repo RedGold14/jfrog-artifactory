@@ -39,6 +39,9 @@ Check service binding:
 ![alt text](images/artifactory-setup-6.jpg)
 **Create repositories:**<br />
 ![alt text](images/artifactory-setup-7.jpg)
+**Finish:**<br />
 ![alt text](images/artifactory-setup-8.jpg)
+**JFrog Platform Welcome screen:**<br />
 ![alt text](images/artifactory-setup-9.jpg)
+**HTTP Status 404 - Not Found:**<br />
 ![alt text](images/errors/http_status_404_not_found.jpg)
