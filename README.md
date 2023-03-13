@@ -7,8 +7,8 @@
 
 ---
 
-Minimum System Requirements: 4 CPU, 4 GB Memory.<br />
-External Ports: 8081, 8082.
+Minimum System Requirements: **4 CPU**, **4 GB** Memory.<br />
+External Ports: **8081**, **8082**.
 
 ---
 
