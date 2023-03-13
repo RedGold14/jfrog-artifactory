@@ -5,10 +5,7 @@
 - Customize configuration 
 - JFrog CLI
 
-Default access: 
-localhost:8081/artifactory/
-
-localhost:8082
+Minimum System Requirements: 4 CPU, 4 GB Memory. External Ports: 8081, 8082.
 
 ---------------------------------------
 
@@ -18,6 +15,9 @@ Default password: password
 
 Check service binding:
 ss -tunelp | grep 8081
+ss -tunelp | grep 8082
+
+### Structure:
 
 /backup
 
