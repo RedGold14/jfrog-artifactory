@@ -12,8 +12,8 @@ External Ports: **8081**, **8082**.
 
 ---
 
-Default username: * *admin* *<br />
-Default password: * *password* *
+Default username: *admin*<br />
+Default password: *password*
 
 Check service binding:
 >ss -tunelp | grep 8081<br />
@@ -27,7 +27,7 @@ Check service binding:
 /log<br />
 /work<br />
 
-Welcome screen<br />
+**Welcome screen**<br />
 ![alt text](images/artifactory-setup-1.jpg)
 ![alt text](images/artifactory-setup-2.jpg)
 ![alt text](images/artifactory-setup-3.jpg)
