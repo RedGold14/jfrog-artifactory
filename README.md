@@ -15,6 +15,7 @@ Default password: password
 
 Check service binding:
 ss -tunelp | grep 8081
+
 ss -tunelp | grep 8082
 
 ### Structure:
@@ -35,7 +36,7 @@ ss -tunelp | grep 8082
 ![alt text](images/artifactory-setup-2.jpg)
 ![alt text](images/artifactory-setup-3.jpg)
 ![alt text](images/artifactory-setup-4.jpg)
-![alt text](images/artifactory-setup-5jpg)
+![alt text](images/artifactory-setup-5.jpg)
 ![alt text](images/artifactory-setup-6.jpg)
 ![alt text](images/artifactory-setup-7.jpg)
 ![alt text](images/artifactory-setup-8.jpg)
