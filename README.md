@@ -1,22 +1,23 @@
-# jfrog-artifactory 
+# JFrog Artifactory 
 
-- Windows Installation
-- Docker Installation
+- Windows installation
+- Docker installation
 - Customize configuration 
 - JFrog CLI
 
-Minimum System Requirements: 4 CPU, 4 GB Memory. External Ports: 8081, 8082.
+---
 
----------------------------------------
+Minimum System Requirements: 4 CPU, 4 GB Memory.<br />
+External Ports: 8081, 8082.
 
-Default username: admin
+---
 
+Default username: admin<br />
 Default password: password
 
 Check service binding:
-ss -tunelp | grep 8081
-
-ss -tunelp | grep 8082
+>ss -tunelp | grep 8081
+>ss -tunelp | grep 8082
 
 ### Structure:
 
