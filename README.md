@@ -4,6 +4,7 @@
 - Docker installation
 - Customize configuration 
 - JFrog CLI
+- Users and groups
 
 ---
 
@@ -12,8 +13,8 @@ External Ports: **8081**, **8082**.
 
 ---
 
-Default username: *admin*<br />
-Default password: *password*
+Default username for the build-in administrator user: *admin*<br />
+Default password for the build-in administrator user: *password*
 
 ---
 
