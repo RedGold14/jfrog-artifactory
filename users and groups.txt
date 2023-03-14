@@ -22,6 +22,16 @@ Encrypted hashes.
 Permission Target Managers.
 General Security Settings.
 
+Only administrators can create users.
+Only administratoes can update passwords.
+
+Creating user: name, email, password.
+
+Enabling Personal OAuth SSO.
+Disabling Personal OAuth SSO.
+
+The invited user will appear with the email status "Invited".
+
 -----------------------------------------------------------
 
 Administration -> User Management -> Users
@@ -31,6 +41,12 @@ Passwords are stored as hashes or encrypted hashes.
 SCIM status of the user: Enabled, Disabled, Locked.
 
 Email of the user.
+
+-----------------------------------------------------------
+
+Cloud users only can be added via email invite, which enables the new user to create an account using a username and password, or by logging in using Personal OAuth SSO.
+
+To use this feature, the Personal OAuth SSO functionality must be enabled under the Authentication Providers section in the Administration tab.
 
 -----------------------------------------------------------
 
@@ -48,4 +64,20 @@ When anonymous access is activated, anonymous requests can download cached artif
 When allowing anonymous access:
 - Potentially unathorized access to users to any existing local, remote or virtual repositories, andm to future repositories.
 - May expose any sensitive data that may be saved in these repositories to non-logged-in users.
+
+-----------------------------------------------------------
+
+User roles:
+- Administer Platform - Administrator user
+- Manage Resources - user can create, edit, and delete permissions on any resource type.  
+- Manage Policies - user can set Xray security and compliance policies.
+- Read Policies - user can only view policies.
+- Manage Watches - user can add, edit, and delete Xray Watches.
+- Manage Reports - user can create, generate, and manage Xray Reports.
+
+User options:
+- Can Update Profile - user can update their profile details (except for the password).
+- Disable UI  - User can only access the system through the REST API.
+- Disable Internal Password - Disables the fallback mechanism for using an internal password when external authentication (such as LDAP) is enabled.
+
 
