@@ -1,0 +1,51 @@
+Manage access to repositories.
+
+Define users.
+
+Assign users to groups.
+
+Set up roles for users.
+Set up roles for groups.
+
+Set up permissions for users.
+Set up permissions for groups.
+
+JFrog Cloud users.
+
+Join through an invite.
+
+Log in using Personal OAuth such as Google or GitHub.
+
+Hashes.
+Encrypted hashes.
+
+Permission Target Managers.
+General Security Settings.
+
+-----------------------------------------------------------
+
+Administration -> User Management -> Users
+
+Passwords are stored as hashes or encrypted hashes.
+
+SCIM status of the user: Enabled, Disabled, Locked.
+
+Email of the user.
+
+-----------------------------------------------------------
+
+User types:
+- Administrator user
+- Anonymous user
+
+The platform installs with with a pre-defined anonymous user.
+
+Anonymous access can be controlled under General Security Settings.
+Set Allow Anonymous Access to activate the anonymous user.
+
+When anonymous access is activated, anonymous requests can download cached artifacts and populate cahces, regardless of other permissions defined.
+
+When allowing anonymous access:
+- Potentially unathorized access to users to any existing local, remote or virtual repositories, andm to future repositories.
+- May expose any sensitive data that may be saved in these repositories to non-logged-in users.
+
